@@ -10,15 +10,18 @@ body{
     text-align: center;
     margin-top: 60px;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .home-economic{
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .economic-title{
     font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 .economic-body{
@@ -56,4 +59,18 @@ body{
 
 .economic-cash p{
     font-size: 1.4em;
+}
+
+.home-account{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.account-title{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.home-account .card-body{
+    font-size: 0.8em;
 }

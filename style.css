@@ -1,0 +1,59 @@
+body{
+    font-size: 16px;
+}
+
+/* 
+|   Estilos del Home
+*/
+
+.home-title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.home-economic{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.economic-title{
+    font-size: 1.5em;
+}
+
+.economic-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 1rem;
+}
+
+.economic-body h3{
+    font-size: 1.1em;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.economic-body p{
+    font-size: 0.7em;
+    margin: 0;
+    text-align: center;
+}
+
+.economic-body div{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.economic-cash{
+    grid-column: 1/-1;
+}
+
+.economic-cash h3{
+    font-size: 1.5em;
+}
+
+.economic-cash p{
+    font-size: 1.4em;
+}

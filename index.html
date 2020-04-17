@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de cuentas</title>
+
+    <!-- Estilos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a href="#" class="navbar-brand">Tienda Carmú</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Compromisos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Consultas</a>
+              <a class="dropdown-item" href="#">Nuevos compromisos</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Cuentas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Consultas</a>
+              <a class="dropdown-item" href="#">Nuevas cuentas</a>
+              <a class="dropdown-item" href="#">Transacciones</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Categorias </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Personas </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Usuarios </a>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a href="#" class="btn btn-danger">Cerrar Sesion </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="mt-5">
+      <section id="homeView">
+        <h1 class="home-title">Dashboard</h1>
+        <!-- El div con las variables economicas -->
+        <div class="home-economic card">
+          <h2 class="economic-title card-header">Variables Economicas</h2>
+          <div class="economic-body card-body">
+            <div class="economic-credits">
+              <h3>Creditos</h3>
+              <p>$ 20,000,000.00</p>
+            </div>
+            <div class="economic-debts">
+              <h3>Deudas</h3>
+              <p>$ 15,000,000.00</p>
+            </div>
+            <div class="economic-loans">
+              <h3>Prestamos</h3>
+              <p>$ 17,000,000.00</p>
+            </div>
+
+            <div class="economic-cash">
+              <h3>Dinero en efectivo</h3>
+              <p>$ 25,000,000.00</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Las ceuntas en efectivo -->
+        <div>
+          <h2>Cuentas de efectivo</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Responsable</th>
+                <th scope="col">Saldo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>$ 5,000,000.00</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>$ 17,500,000.00</td>
+              </tr>
+              <tr>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>$ 2,500,000.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Escript utiilizados por bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

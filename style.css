@@ -64,6 +64,7 @@ body{
 .home-account{
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .account-title{
@@ -72,5 +73,36 @@ body{
 }
 
 .home-account .card-body{
-    font-size: 0.8em;
+    font-size: 0.85em;
+}
+
+.home-income-and-expenses{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.income-and-expenses-title{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.home-income-and-expenses .card-body{
+    padding: 1em;
+}
+
+.home-income-and-expenses table{
+    font-size: 0.7em;
+}
+
+
+.home-income-and-expenses tbody th,
+.home-income-and-expenses tbody td{
+    padding: 0;
+    width: 25%;
+    vertical-align: middle;
+}
+
+.home-income-and-expenses tbody td{
+    text-align: right;
 }
